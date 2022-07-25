@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.level1{
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)),url(/img/p1.svg);
+  
+}
+.nav UL{
+    display: flex;
+    color: white;
+    padding: 30px;
+    padding-left: 230px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+   list-style: none;
+   padding: 40px;
+   font-size: 18px;
+
+}
+button{
+    color: white;
+    background-color: rgb(75, 163, 75);
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.login{
+    padding-left: 140px;
+}
+h4{
+    color: rgb(145, 243, 145);
+   text-align: center;
+   padding-top: 90px;
+}
+h5{
+    text-align: center;
+    color: white;
+    font-size: 60PX;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+.two{
+margin: auto;
+}
+.lev1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+   
+.level2{
+    min-height: 100vh;
+    width: 100%;
+    padding: 220px;
+}
+h6{
+    color: rgb(120, 190, 120);
+}
+.fa fa-television{
+    color:red ;
+     height:30px; 
+     width: 30px
+}
+.cert{
+    padding-top: 60px;
+}
+.box-ccontainer{
+    display: flex;
+    padding: 10px;
+}
+.box1,.box2,.box3,.box4{
+    width: 30%;
+    padding: 40px;
+    height: 320px;
+    margin: 20px;
+    
+}
+.box1{
+    background-color: rgb(172, 77, 77);
+   
+
+
+}
+.box2{
+    background-color: gainsboro;
+
+}
+.box3{
+    background-color: rgb(155, 252, 163);
+
+}
+.box4{
+    background-color: gainsboro;
+
+}
